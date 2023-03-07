@@ -3,29 +3,24 @@
 ## Description
 This is my refactored portfolio using react, will build on this when searching for work.
 
-## Table of contents
+![screenshot](/ss1.PNG)
+![screenshot](/ss2.PNG)
 
-- [Installation](#Insallation)
+[Deployed App](https://igurgoze.github.io/React_Portfolio/)
+
+## Table of contents
 
 - [Usage](#Usage)
 
 - [Contribution](#Contributing)
 
-- [Test](#Test)
-
 - [Questions](#Questions)
-
-## Installation
-none
 
 ## Usage
 Click my Link to see my deployed portfolio!
 
 ## Contributing
 Ian Gurgoze
-
-## Test
-
 
 ## Questions
 
