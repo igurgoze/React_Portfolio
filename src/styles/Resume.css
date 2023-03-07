@@ -18,12 +18,6 @@
     border-radius: 0px 10px 10px 0px;
   }
   
-  
-  #downloadButton{
-    background-color: var(--layer2-color);
-    color:var(--background-color);
-  }
-  
   @media screen and (max-width: 1000px) {
     #resume {
       padding-left: 15px;
