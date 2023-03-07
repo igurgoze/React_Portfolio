@@ -1,6 +1,5 @@
  footer{
     padding-left: 200px;
-    color: var(--text-color);
     height: 100vh;
     display: flex;
     flex-direction: column;

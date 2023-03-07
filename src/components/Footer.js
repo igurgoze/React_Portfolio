@@ -36,7 +36,7 @@ export default function Footer() {
           <div class="section-title">
             <h2>Contact</h2>
           </div>
-          <p>If you're looking for a friendly, hard-working individual to be a part of your team or have questions about myself and my work experience, please don't hestitate to reach out!</p>
+          <p>I am excited to get the chance to work with you, feel free to reach out and contact me!</p>
 
           <div class="row">
 
