@@ -1,0 +1,31 @@
+:root {
+    --background-color:#1d2d3d ;
+    --text-color:#aaaaaa ;
+    --layer1-color: #176fa7;
+    --layer2-color: #328cc1;
+    --contrast-color:#d98310 ;
+  }
+  
+  
+  #resume {
+    padding-left: 200px;
+    color: var(--text-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid 3px;
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  
+  #downloadButton{
+    background-color: var(--layer2-color);
+    color:var(--background-color);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    #resume {
+      padding-left: 15px;
+    }
+  }

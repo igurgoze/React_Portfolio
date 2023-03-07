@@ -1,0 +1,92 @@
+  #my-projects {
+    padding-left: 200px;
+    color: var(--text-color);
+    height: 100vh;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    border-bottom: solid 3px;
+    border-radius: 0px 0px 10px 0px;
+  }
+  
+  /* #projectTitle{
+    border-bottom:solid;
+  } */
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  
+  .img-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin: 1em;
+    
+  }
+  
+  .img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    /* border: solid; */
+    /* box-shadow: 12px 12px 2px 1px rgb(0, 0, 0); */
+    background-color: var(--text-color);
+    
+  }
+  
+  .img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+  
+  }
+  
+  .img-wrapper > img,
+  .img-wrapper > .content {
+    transition: 350ms ease-in-out;
+  }
+  
+  .img-wrapper > .content.fade {
+    opacity: 0;
+  }
+  .img-wrapper:hover > .content.fade {
+    opacity: 1;
+  }
+  
+  .img-wrapper:hover > img.blur {
+    filter: blur(5px);
+  }
+  
+  .img-wrapper > .content.slide-up {
+    transform: translateY(100%);
+  }
+  .img-wrapper:hover > .content.slide-up {
+    transform: translateY(0);
+  }
+  
+  @media screen and (max-width: 1320px) {
+    #my-projects {
+      height: unset;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    /*
+    remove vH 100
+    update div class to container-fluid (*remove grid)
+    */
+    #my-projects {
+      padding-left: 15px;
+      height: unset;
+    }
+  }
