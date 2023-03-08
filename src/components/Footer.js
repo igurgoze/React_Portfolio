@@ -4,9 +4,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Footer() {
-  // const formControl = document.getElementsByClassName('.form-control')
   const form = useRef();
-  // const formName = document.getElementById('name')
   const clearForm= () => {
     alert("Thanks for the email")
     document.getElementById('name').value = '';

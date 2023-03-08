@@ -11,7 +11,6 @@ export default function Resume() {
           </h2>
         </div>
 
-
         <div class="row">
 
           <div class="col-6">

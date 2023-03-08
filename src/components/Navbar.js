@@ -12,8 +12,6 @@ export default function Navbar() {
           </a>
 
         </div>
-
-
         <div id="midNav">
           <a class="btn nav-link" href="#about-me">About Me</a>  |
           <a class="btn nav-link" href="#my-projects">Projects</a> |
